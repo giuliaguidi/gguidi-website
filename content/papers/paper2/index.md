@@ -1,18 +1,8 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
-cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
-    relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+title: "BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper"
+date: 2021-07-15
+lastmod: 2024-11-15
+author: ["Giulia Guidi", "Marquita Ellis", "Daniel Rokhsar", "Katherine Yelick", "Aydın Buluç"]
 
 ---
 
@@ -20,43 +10,26 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
++ [Paper](https://people.eecs.berkeley.edu/~aydin/bellasiamacda2021.pdf)
++ [GitHub](https://github.com/PASSIONLab/BELLA)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
----
-
-##### Figure 2: Dimensions of a sausage dog
-
-![](paper2.png)
+Recent advances in long-read sequencing allow characterization of genome structure and its variation within and between species at a resolution not previously possible. Detection of overlap between reads is an essential component of many long-read genome pipelines, such as de novo genome assembly. Longer reads simplify genome assembly and improve reconstruction contiguity, but current long-read technologies are associated with moderate to high error rates. In this work, we present Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper (BELLA), a novel overlap detection and alignment algorithm using sparse matrix-matrix multiplication. We introduce a notion of reliable k-mers and a new method based on Chernoff bounds to separate true overlaps from false positives. BELLA achieves high precision and recall, improving de novo assembly quality on synthetic data when coupled with the miniasm assembler.
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Guidi, Giulia, Ellis, Marquita, Rokhsar, Daniel, Yelick, Katherine, and Buluç, Aydın. "BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper." SIAM Conference on Applied and Computational Discrete Algorithms (ACDA21), 2021.
 
 ```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@article{bella2021,
+  title={{BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper}},
+  author={Guidi, Giulia and Ellis, Marquita and Rokhsar, Daniel and Yelick, Katherine and Buluç, Aydın},
+  journal={SIAM Conference on Applied and Computational Discrete Algorithms (ACDA21)},
+  year={2021}
+}
 ```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
